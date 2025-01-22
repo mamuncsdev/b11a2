@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.btnfont{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+body{
+    font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  background: rgb(247, 247, 247);
+}
+
+.navclass{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 141px;
+    padding-right: 141px;
+    margin: 20px 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.navmenu{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    font-size: 20px;
+font-weight: 500;
+
+    
+
+}
+
+.navmenu1{
+    color: Orange;
+}
+.navmenu2{
+    color: rgb(1, 172, 253);
+}
+
+.navmenu3{
+    color:#05D4DF;
+}
+.navmenu4{
+    color: #5D58EF;
+}
+
+.navbtn{
+    background-color: orange;
+    border: 0;
+    border-radius: 12px;
+    padding: 16px 61.5px 16px 61.5px ;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+}
+
+/* nav end  */
+
+
+/* banner */
+
+.bannerclass{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:50px;
+    padding-left: 141px;
+    padding-right: 141px;
+    
+    
+
+}
+
+
+.bannerhead{
+    font-size: 56px;
+    font-weight: 700;
+    padding-bottom: 24px;
+    
+}
+
+.span1{
+color: #FEA301;
+}
+.span2{
+color:#01ACFD;
+}
+
+.bannerpara{
+    color: rgb(17, 17, 17);
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 24px;
+    
+
+}
+
+.bannerbutton{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 47px;
+    border-radius: 12px;
+}
+
+
+/* banner end */
+
